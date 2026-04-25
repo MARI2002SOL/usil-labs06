@@ -1,4 +1,11 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "2"
+# dependencies = [
+#   "-r /Workspace/Users/marisolcieza0203@gmail.com/usil-labs06/requirements.txt",
+# ]
+# ///
 import pymongo
 from pymongo import MongoClient
 import os
@@ -7,7 +14,7 @@ load_dotenv()
 
 # COMMAND ----------
 
-# os.getenv("MONGODB_CONNECTION_STRING")
+os.getenv("MONGODB_CONNECTION_STRING")
 
 # COMMAND ----------
 
